@@ -108,7 +108,7 @@ namespace Tic_Tac_Toe
                     MessageBoxIcon.Error);
         }
 
-        private bool IsEqualRaw(Button btn1, Button btn2, Button btn3)
+        private bool IsEqualLine(Button btn1, Button btn2, Button btn3)
         {
             bool result = false;
             if (btn1.Tag.ToString() == "?")
@@ -127,14 +127,14 @@ namespace Tic_Tac_Toe
         private bool IsWin()
         {
             if (
-                IsEqualRaw(btnCell1, btnCell2, btnCell3)
-                || IsEqualRaw(btnCell4, btnCell5, btnCell6)
-                || IsEqualRaw(btnCell7, btnCell8, btnCell9)
-                || IsEqualRaw(btnCell1, btnCell4, btnCell7)
-                || IsEqualRaw(btnCell2, btnCell5, btnCell8)
-                || IsEqualRaw(btnCell3, btnCell6, btnCell9)
-                || IsEqualRaw(btnCell1, btnCell5, btnCell9)
-                || IsEqualRaw(btnCell3, btnCell5, btnCell7)
+                IsEqualLine(btnCell1, btnCell2, btnCell3)
+                || IsEqualLine(btnCell4, btnCell5, btnCell6)
+                || IsEqualLine(btnCell7, btnCell8, btnCell9)
+                || IsEqualLine(btnCell1, btnCell4, btnCell7)
+                || IsEqualLine(btnCell2, btnCell5, btnCell8)
+                || IsEqualLine(btnCell3, btnCell6, btnCell9)
+                || IsEqualLine(btnCell1, btnCell5, btnCell9)
+                || IsEqualLine(btnCell3, btnCell5, btnCell7)
                 )
                 { return true; }
             
