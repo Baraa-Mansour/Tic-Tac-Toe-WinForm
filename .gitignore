@@ -1,0 +1,48 @@
+## Visual Studio & .NET Core / Framework Build Artifacts
+[Db]ebug/
+[R]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[L]og/
+[L]ogs/
+
+## Visual Studio Cache and Settings Files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## Build Results & Packages
+*.nupkg
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+## Auto-generated ResX / Form Files
+*.designer.cs.meta
+*.resx.meta
+
+## Profiler, Coverage, & Test Results
+*.intellij*
+*.coverage
+*.coveragexml
+TestResults/
+
+## OS-generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
