@@ -140,7 +140,7 @@
             this.btnRestart.Location = new System.Drawing.Point(62, 558);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.Size = new System.Drawing.Size(231, 61);
-            this.btnRestart.TabIndex = 6;
+            this.btnRestart.TabIndex = 9;
             this.btnRestart.Text = "Restart Game";
             this.btnRestart.UseVisualStyleBackColor = true;
             // 
@@ -151,7 +151,8 @@
             this.btnCell8.Location = new System.Drawing.Point(575, 519);
             this.btnCell8.Name = "btnCell8";
             this.btnCell8.Size = new System.Drawing.Size(160, 149);
-            this.btnCell8.TabIndex = 15;
+            this.btnCell8.TabIndex = 7;
+            this.btnCell8.Tag = "?";
             this.btnCell8.UseVisualStyleBackColor = true;
             // 
             // btnCell3
@@ -161,7 +162,8 @@
             this.btnCell3.Location = new System.Drawing.Point(760, 141);
             this.btnCell3.Name = "btnCell3";
             this.btnCell3.Size = new System.Drawing.Size(160, 149);
-            this.btnCell3.TabIndex = 9;
+            this.btnCell3.TabIndex = 2;
+            this.btnCell3.Tag = "?";
             this.btnCell3.UseVisualStyleBackColor = true;
             // 
             // btnCell2
@@ -171,7 +173,8 @@
             this.btnCell2.Location = new System.Drawing.Point(575, 141);
             this.btnCell2.Name = "btnCell2";
             this.btnCell2.Size = new System.Drawing.Size(160, 149);
-            this.btnCell2.TabIndex = 8;
+            this.btnCell2.TabIndex = 1;
+            this.btnCell2.Tag = "?";
             this.btnCell2.UseVisualStyleBackColor = true;
             // 
             // btnCell9
@@ -181,7 +184,8 @@
             this.btnCell9.Location = new System.Drawing.Point(760, 519);
             this.btnCell9.Name = "btnCell9";
             this.btnCell9.Size = new System.Drawing.Size(160, 149);
-            this.btnCell9.TabIndex = 11;
+            this.btnCell9.TabIndex = 8;
+            this.btnCell9.Tag = "?";
             this.btnCell9.UseVisualStyleBackColor = true;
             // 
             // btnCell7
@@ -191,7 +195,8 @@
             this.btnCell7.Location = new System.Drawing.Point(389, 519);
             this.btnCell7.Name = "btnCell7";
             this.btnCell7.Size = new System.Drawing.Size(160, 149);
-            this.btnCell7.TabIndex = 14;
+            this.btnCell7.TabIndex = 6;
+            this.btnCell7.Tag = "?";
             this.btnCell7.UseVisualStyleBackColor = true;
             // 
             // btnCell5
@@ -201,7 +206,8 @@
             this.btnCell5.Location = new System.Drawing.Point(575, 330);
             this.btnCell5.Name = "btnCell5";
             this.btnCell5.Size = new System.Drawing.Size(160, 149);
-            this.btnCell5.TabIndex = 13;
+            this.btnCell5.TabIndex = 4;
+            this.btnCell5.Tag = "?";
             this.btnCell5.UseVisualStyleBackColor = true;
             this.btnCell5.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -212,7 +218,8 @@
             this.btnCell6.Location = new System.Drawing.Point(760, 330);
             this.btnCell6.Name = "btnCell6";
             this.btnCell6.Size = new System.Drawing.Size(160, 149);
-            this.btnCell6.TabIndex = 10;
+            this.btnCell6.TabIndex = 5;
+            this.btnCell6.Tag = "?";
             this.btnCell6.UseVisualStyleBackColor = true;
             // 
             // btnCell1
@@ -222,7 +229,8 @@
             this.btnCell1.Location = new System.Drawing.Point(389, 141);
             this.btnCell1.Name = "btnCell1";
             this.btnCell1.Size = new System.Drawing.Size(160, 149);
-            this.btnCell1.TabIndex = 7;
+            this.btnCell1.TabIndex = 0;
+            this.btnCell1.Tag = "?";
             this.btnCell1.UseVisualStyleBackColor = true;
             // 
             // btnCell4
@@ -232,7 +240,8 @@
             this.btnCell4.Location = new System.Drawing.Point(389, 330);
             this.btnCell4.Name = "btnCell4";
             this.btnCell4.Size = new System.Drawing.Size(160, 149);
-            this.btnCell4.TabIndex = 12;
+            this.btnCell4.TabIndex = 3;
+            this.btnCell4.Tag = "?";
             this.btnCell4.UseVisualStyleBackColor = true;
             this.btnCell4.Click += new System.EventHandler(this.button6_Click);
             // 
