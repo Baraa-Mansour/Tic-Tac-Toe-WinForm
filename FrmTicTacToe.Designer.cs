@@ -272,6 +272,7 @@
             this.Font = new System.Drawing.Font("Symbol", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmTicTacToe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmTicTacToe_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
