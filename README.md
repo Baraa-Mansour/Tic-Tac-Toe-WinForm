@@ -8,17 +8,17 @@ Two players take turns on a 3×3 board. The first to line up three of their symb
 
 `FrmTicTacToe` is a single-form game where:
 
-Player 1 plays with X
+- Player 1 plays with X
 
-Player 2 plays with O
+- Player 2 plays with O
 
-The current turn is displayed as "Player 1" or "Player 2"
+- The current turn is displayed as "Player 1" or "Player 2"
 
-The Winner label shows "In Progress" until the game ends, then displays the winner's name or "Draw"
+- The Winner label shows "In Progress" until the game ends, then displays the winner's name or "Draw"
 
-Winning cells are highlighted in yellow
+- Winning cells are highlighted in yellow
 
-A Restart Game button resets everything for a new match
+- A Restart Game button resets everything for a new match
 
 The board grid is drawn manually on the form using GDI+ (`Graphics.DrawLine`) inside the form's `Paint` event — the cells themselves are flat `Button` controls with image backgrounds.
 
