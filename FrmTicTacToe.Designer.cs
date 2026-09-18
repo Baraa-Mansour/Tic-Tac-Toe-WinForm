@@ -31,21 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTicTacToe));
             this.lblTitle = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblPlyer = new System.Windows.Forms.Label();
+            this.lblPlayer = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblWinner = new System.Windows.Forms.Label();
-            this.lblPlayer = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
             this.btnCell8 = new System.Windows.Forms.Button();
-            this.btnCell3 = new System.Windows.Forms.Button();
-            this.btnCell2 = new System.Windows.Forms.Button();
-            this.btnCell9 = new System.Windows.Forms.Button();
             this.btnCell7 = new System.Windows.Forms.Button();
             this.btnCell5 = new System.Windows.Forms.Button();
-            this.btnCell6 = new System.Windows.Forms.Button();
-            this.btnCell1 = new System.Windows.Forms.Button();
             this.btnCell4 = new System.Windows.Forms.Button();
+            this.btnCell9 = new System.Windows.Forms.Button();
+            this.btnCell6 = new System.Windows.Forms.Button();
+            this.btnCell3 = new System.Windows.Forms.Button();
+            this.btnCell2 = new System.Windows.Forms.Button();
+            this.btnCell1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +59,6 @@
             this.lblTitle.Size = new System.Drawing.Size(386, 97);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Tic Tac Toe";
-            this.lblTitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -73,17 +71,16 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Turn";
             // 
-            // lblPlyer
+            // lblPlayer
             // 
-            this.lblPlyer.AutoSize = true;
-            this.lblPlyer.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlyer.ForeColor = System.Drawing.Color.Lime;
-            this.lblPlyer.Location = new System.Drawing.Point(81, 315);
-            this.lblPlyer.Name = "lblPlyer";
-            this.lblPlyer.Size = new System.Drawing.Size(212, 73);
-            this.lblPlyer.TabIndex = 3;
-            this.lblPlyer.Text = "Player 1";
-            this.lblPlyer.Click += new System.EventHandler(this.label3_Click);
+            this.lblPlayer.AutoSize = true;
+            this.lblPlayer.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayer.ForeColor = System.Drawing.Color.Lime;
+            this.lblPlayer.Location = new System.Drawing.Point(81, 315);
+            this.lblPlayer.Name = "lblPlayer";
+            this.lblPlayer.Size = new System.Drawing.Size(212, 73);
+            this.lblPlayer.TabIndex = 3;
+            this.lblPlayer.Text = "Player 1";
             // 
             // label4
             // 
@@ -95,7 +92,6 @@
             this.label4.Size = new System.Drawing.Size(188, 73);
             this.label4.TabIndex = 4;
             this.label4.Text = "Winner";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // lblWinner
             // 
@@ -107,18 +103,6 @@
             this.lblWinner.Size = new System.Drawing.Size(273, 73);
             this.lblWinner.TabIndex = 5;
             this.lblWinner.Text = "In Progress";
-            // 
-            // lblPlayer
-            // 
-            this.lblPlayer.AutoSize = true;
-            this.lblPlayer.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayer.ForeColor = System.Drawing.Color.Lime;
-            this.lblPlayer.Location = new System.Drawing.Point(140, 315);
-            this.lblPlayer.Name = "lblPlayer";
-            this.lblPlayer.Size = new System.Drawing.Size(212, 73);
-            this.lblPlayer.TabIndex = 3;
-            this.lblPlayer.Text = "Player 1";
-            this.lblPlayer.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
             // 
@@ -154,39 +138,7 @@
             this.btnCell8.TabIndex = 7;
             this.btnCell8.Tag = "?";
             this.btnCell8.UseVisualStyleBackColor = true;
-            // 
-            // btnCell3
-            // 
-            this.btnCell3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCell3.Image = ((System.Drawing.Image)(resources.GetObject("btnCell3.Image")));
-            this.btnCell3.Location = new System.Drawing.Point(760, 141);
-            this.btnCell3.Name = "btnCell3";
-            this.btnCell3.Size = new System.Drawing.Size(160, 149);
-            this.btnCell3.TabIndex = 2;
-            this.btnCell3.Tag = "?";
-            this.btnCell3.UseVisualStyleBackColor = true;
-            // 
-            // btnCell2
-            // 
-            this.btnCell2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCell2.Image = global::Tic_Tac_Toe.Properties.Resources.question_mark_96;
-            this.btnCell2.Location = new System.Drawing.Point(575, 141);
-            this.btnCell2.Name = "btnCell2";
-            this.btnCell2.Size = new System.Drawing.Size(160, 149);
-            this.btnCell2.TabIndex = 1;
-            this.btnCell2.Tag = "?";
-            this.btnCell2.UseVisualStyleBackColor = true;
-            // 
-            // btnCell9
-            // 
-            this.btnCell9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCell9.Image = ((System.Drawing.Image)(resources.GetObject("btnCell9.Image")));
-            this.btnCell9.Location = new System.Drawing.Point(760, 519);
-            this.btnCell9.Name = "btnCell9";
-            this.btnCell9.Size = new System.Drawing.Size(160, 149);
-            this.btnCell9.TabIndex = 8;
-            this.btnCell9.Tag = "?";
-            this.btnCell9.UseVisualStyleBackColor = true;
+            this.btnCell8.Click += new System.EventHandler(this.btnCell_Click);
             // 
             // btnCell7
             // 
@@ -198,6 +150,7 @@
             this.btnCell7.TabIndex = 6;
             this.btnCell7.Tag = "?";
             this.btnCell7.UseVisualStyleBackColor = true;
+            this.btnCell7.Click += new System.EventHandler(this.btnCell_Click);
             // 
             // btnCell5
             // 
@@ -209,29 +162,7 @@
             this.btnCell5.TabIndex = 4;
             this.btnCell5.Tag = "?";
             this.btnCell5.UseVisualStyleBackColor = true;
-            this.btnCell5.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // btnCell6
-            // 
-            this.btnCell6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCell6.Image = ((System.Drawing.Image)(resources.GetObject("btnCell6.Image")));
-            this.btnCell6.Location = new System.Drawing.Point(760, 330);
-            this.btnCell6.Name = "btnCell6";
-            this.btnCell6.Size = new System.Drawing.Size(160, 149);
-            this.btnCell6.TabIndex = 5;
-            this.btnCell6.Tag = "?";
-            this.btnCell6.UseVisualStyleBackColor = true;
-            // 
-            // btnCell1
-            // 
-            this.btnCell1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCell1.Image = global::Tic_Tac_Toe.Properties.Resources.question_mark_96;
-            this.btnCell1.Location = new System.Drawing.Point(389, 141);
-            this.btnCell1.Name = "btnCell1";
-            this.btnCell1.Size = new System.Drawing.Size(160, 149);
-            this.btnCell1.TabIndex = 0;
-            this.btnCell1.Tag = "?";
-            this.btnCell1.UseVisualStyleBackColor = true;
+            this.btnCell5.Click += new System.EventHandler(this.btnCell_Click);
             // 
             // btnCell4
             // 
@@ -243,7 +174,67 @@
             this.btnCell4.TabIndex = 3;
             this.btnCell4.Tag = "?";
             this.btnCell4.UseVisualStyleBackColor = true;
-            this.btnCell4.Click += new System.EventHandler(this.button6_Click);
+            this.btnCell4.Click += new System.EventHandler(this.btnCell_Click);
+            // 
+            // btnCell9
+            // 
+            this.btnCell9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCell9.Image = ((System.Drawing.Image)(resources.GetObject("btnCell9.Image")));
+            this.btnCell9.Location = new System.Drawing.Point(760, 519);
+            this.btnCell9.Name = "btnCell9";
+            this.btnCell9.Size = new System.Drawing.Size(160, 149);
+            this.btnCell9.TabIndex = 8;
+            this.btnCell9.Tag = "?";
+            this.btnCell9.UseVisualStyleBackColor = true;
+            this.btnCell9.Click += new System.EventHandler(this.btnCell_Click);
+            // 
+            // btnCell6
+            // 
+            this.btnCell6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCell6.Image = ((System.Drawing.Image)(resources.GetObject("btnCell6.Image")));
+            this.btnCell6.Location = new System.Drawing.Point(760, 330);
+            this.btnCell6.Name = "btnCell6";
+            this.btnCell6.Size = new System.Drawing.Size(160, 149);
+            this.btnCell6.TabIndex = 5;
+            this.btnCell6.Tag = "?";
+            this.btnCell6.UseVisualStyleBackColor = true;
+            this.btnCell6.Click += new System.EventHandler(this.btnCell_Click);
+            // 
+            // btnCell3
+            // 
+            this.btnCell3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCell3.Image = ((System.Drawing.Image)(resources.GetObject("btnCell3.Image")));
+            this.btnCell3.Location = new System.Drawing.Point(760, 141);
+            this.btnCell3.Name = "btnCell3";
+            this.btnCell3.Size = new System.Drawing.Size(160, 149);
+            this.btnCell3.TabIndex = 2;
+            this.btnCell3.Tag = "?";
+            this.btnCell3.UseVisualStyleBackColor = true;
+            this.btnCell3.Click += new System.EventHandler(this.btnCell_Click);
+            // 
+            // btnCell2
+            // 
+            this.btnCell2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCell2.Image = global::Tic_Tac_Toe.Properties.Resources.question_mark_96;
+            this.btnCell2.Location = new System.Drawing.Point(575, 141);
+            this.btnCell2.Name = "btnCell2";
+            this.btnCell2.Size = new System.Drawing.Size(160, 149);
+            this.btnCell2.TabIndex = 1;
+            this.btnCell2.Tag = "?";
+            this.btnCell2.UseVisualStyleBackColor = true;
+            this.btnCell2.Click += new System.EventHandler(this.btnCell_Click);
+            // 
+            // btnCell1
+            // 
+            this.btnCell1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCell1.Image = global::Tic_Tac_Toe.Properties.Resources.question_mark_96;
+            this.btnCell1.Location = new System.Drawing.Point(389, 141);
+            this.btnCell1.Name = "btnCell1";
+            this.btnCell1.Size = new System.Drawing.Size(160, 149);
+            this.btnCell1.TabIndex = 0;
+            this.btnCell1.Tag = "?";
+            this.btnCell1.UseVisualStyleBackColor = true;
+            this.btnCell1.Click += new System.EventHandler(this.btnCell_Click);
             // 
             // pictureBox1
             // 
@@ -274,7 +265,7 @@
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.lblWinner);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.lblPlyer);
+            this.Controls.Add(this.lblPlayer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTitle);
@@ -295,10 +286,9 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblPlyer;
+        private System.Windows.Forms.Label lblPlayer;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblWinner;
-        private System.Windows.Forms.Label lblPlayer;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRestart;
         private System.Windows.Forms.Button btnCell8;
