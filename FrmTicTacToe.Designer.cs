@@ -34,7 +34,6 @@
             this.lblPlayer = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblWinner = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
             this.btnCell8 = new System.Windows.Forms.Button();
             this.btnCell7 = new System.Windows.Forms.Button();
@@ -103,17 +102,6 @@
             this.lblWinner.Size = new System.Drawing.Size(273, 73);
             this.lblWinner.TabIndex = 5;
             this.lblWinner.Text = "In Progress";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Lime;
-            this.label5.Location = new System.Drawing.Point(140, 461);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(273, 73);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "In Progress";
             // 
             // btnRestart
             // 
@@ -290,17 +278,16 @@
         private System.Windows.Forms.Label lblPlayer;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblWinner;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRestart;
-        private System.Windows.Forms.Button btnCell8;
-        private System.Windows.Forms.Button btnCell3;
+        private System.Windows.Forms.Button btnCell1;
         private System.Windows.Forms.Button btnCell2;
-        private System.Windows.Forms.Button btnCell9;
-        private System.Windows.Forms.Button btnCell7;
+        private System.Windows.Forms.Button btnCell3;
+        private System.Windows.Forms.Button btnCell4;
         private System.Windows.Forms.Button btnCell5;
         private System.Windows.Forms.Button btnCell6;
-        private System.Windows.Forms.Button btnCell1;
-        private System.Windows.Forms.Button btnCell4;
+        private System.Windows.Forms.Button btnCell7;
+        private System.Windows.Forms.Button btnCell8;
+        private System.Windows.Forms.Button btnCell9;
     }
 }
 
