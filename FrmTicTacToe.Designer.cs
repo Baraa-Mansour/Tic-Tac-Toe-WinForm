@@ -127,6 +127,7 @@
             this.btnRestart.TabIndex = 9;
             this.btnRestart.Text = "Restart Game";
             this.btnRestart.UseVisualStyleBackColor = true;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // btnCell8
             // 
